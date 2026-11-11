@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VEXORA creates thoughtful, modern websites that help businesses stand out and grow online.">
+  <meta name="theme-color" content="#071a14">
+  <title>VEXORA — Your vision. Our creation.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="VEXORA home"><span class="brand-mark">V</span> VEXORA<span class="brand-dot">.</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links">
+      <a href="#services">Services</a><a href="#process">Our process</a><a href="#work">Why VEXORA</a>
+      <a class="nav-cta" href="#contact">Start a project <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> INDEPENDENT DIGITAL STUDIO</div>
+        <h1>Make your<br>business <span class="gradient-text">impossible</span><br>to ignore.</h1>
+        <p class="hero-lede">We design and build modern websites that turn first impressions into lasting connections.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Build with us <span>↗</span></a>
+          <a class="text-link" href="#services">Explore what we do <span>↓</span></a>
+        </div>
+        <div class="hero-proof"><div class="proof-line"></div><span>DESIGNED WITH INTENTION. BUILT TO PERFORM.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract website interface preview">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="preview-card">
+          <div class="preview-top"><div class="mini-brand"><i></i> STUDIO / 01</div><div class="window-dots"><b></b><b></b><b></b></div></div>
+          <div class="preview-content">
+            <div class="preview-kicker">A NEW KIND OF PRESENCE</div>
+            <div class="preview-heading">Built for<br><em>what's next.</em></div>
+            <div class="preview-bars"><i></i><i></i><i></i></div>
+            <div class="preview-bottom"><span>DESIGN / DEVELOPMENT</span><span class="preview-arrow">↗</span></div>
+          </div>
+        </div>
+        <div class="float-tag tag-top"><span class="tag-icon">✳</span> Clean by design</div>
+        <div class="float-tag tag-bottom"><span class="tag-dot"></span> Made to move you forward</div>
+        <div class="art-glow"></div>
+      </div>
+      <div class="hero-scroll"><span>SCROLL TO EXPLORE</span><i></i></div>
+    </section>
+
+    <section class="intro section-wrap">
+      <p class="eyebrow">A BETTER WAY TO SHOW UP ONLINE</p>
+      <div class="intro-grid"><h2>Your website should<br>work as hard as you do.</h2><p>People meet your business online before they meet you. We help make that introduction count with clear strategy, thoughtful design, and smooth experiences on every screen.</p></div>
+    </section>
+
+    <section class="services section-wrap" id="services">
+      <div class="section-heading"><div><p class="eyebrow">WHAT WE CREATE</p><h2>Everything you need.<br><span class="muted">Nothing you don't.</span></h2></div><p class="section-note">From the first sketch to launch day, we bring the pieces together.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><div class="service-number">01 / DESIGN</div><div class="service-icon">◈</div><h3>Web design</h3><p>Distinctive, user-friendly layouts that make your brand feel clear, confident, and memorable.</p><a href="#contact">Discuss a design <span>↗</span></a></article>
+        <article class="service-card featured"><div class="service-number">02 / BUILD</div><div class="service-icon">⌘</div><h3>Website development</h3><p>Responsive, fast-loading websites built to look sharp and work smoothly across devices.</p><a href="#contact">Build my website <span>↗</span></a></article>
+        <article class="service-card"><div class="service-number">03 / GROW</div><div class="service-icon">↗</div><h3>Website refresh</h3><p>Give an existing website a cleaner look, better structure, and a more useful experience.</p><a href="#contact">Refresh my site <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="process section-wrap" id="process">
+      <div class="section-heading"><div><p class="eyebrow">SIMPLE FROM START TO FINISH</p><h2>Good work.<br><span class="muted">Clear process.</span></h2></div><p class="section-note">No mystery, no unnecessary complications. Just a collaborative path from idea to launch.</p></div>
+      <div class="steps">
+        <div class="step"><span>01</span><div><h3>We listen</h3><p>Tell us about your business, your goals, and what you need your website to do.</p></div></div>
+        <div class="step"><span>02</span><div><h3>We design</h3><p>We shape the structure and visual direction around your brand and audience.</p></div></div>
+        <div class="step"><span>03</span><div><h3>We build</h3><p>We turn the design into a responsive website and refine the details together.</p></div></div>
+        <div class="step"><span>04</span><div><h3>We launch</h3><p>After your approval, we help get your new website ready for the world.</p></div></div>
+      </div>
+    </section>
+
+    <section class="statement section-wrap" id="work">
+      <div class="statement-inner"><div class="statement-symbol">V<span>.</span></div><p class="eyebrow">THE VEXORA STANDARD</p><h2>Thoughtful design.<br><span class="gradient-text">Real-world purpose.</span></h2><p class="statement-copy">We believe a great website is more than a pretty screen. It should tell your story, make things easy for visitors, and give your business room to grow.</p><a class="button button-outline" href="#contact">Let's make it happen <span>↗</span></a></div>
+    </section>
+
+    <section class="contact section-wrap" id="contact">
+      <div class="contact-grid">
+        <div><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let's build<br>something <span class="gradient-text">great.</span></h2><p class="contact-copy">Tell us a little about what you're looking for. We'll take it from there.</p><div class="contact-aside"><span class="contact-aside-dot"></span> Taking on new projects</div></div>
+        <div class="form-panel">
+          {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}{% for category, message in messages %}<div class="flash {{ category }}">{{ message }}</div>{% endfor %}{% endif %}
+          {% endwith %}
+          <form action="{{ url_for('contact') }}" method="POST">
+            <label for="name">Your name</label><input id="name" name="name" placeholder="Name" required>
+            <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+            <label for="service">What do you need?</label><select id="service" name="service"><option value="New website">A new website</option><option value="Web design">Web design</option><option value="Website refresh">Website refresh</option><option value="Something else">Something else</option></select>
+            <label for="message">Tell us about your project</label><textarea id="message" name="message" rows="4" placeholder="A little about your business and what you have in mind..." required></textarea>
+            <button class="button button-primary submit-button" type="submit">Send enquiry <span>↗</span></button>
+            <p class="form-small">Your details are only used to respond to your enquiry.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap"><a class="brand" href="#home"><span class="brand-mark">V</span> VEXORA<span class="brand-dot">.</span></a><p>Digital experiences, thoughtfully made.</p><a href="#home" class="back-top">BACK TO TOP ↑</a><div class="footer-bottom"><span>© <span id="year"></span> VEXORA STUDIO</span><span>YOUR VISION. OUR CREATION.</span></div></footer>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
